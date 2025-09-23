@@ -37,8 +37,8 @@ Stores & Staff (store, staff)
 
 1. How many films exist per category?
 
-📄 [Query](sql/01_films_by_category.sql)
- | 📊 [Results](results/01_films_by_category.csv)
+📄 [Query](SQL/01_films_by_category.sql)
+ | 📊 [Results](RESULTS/01_films_by_category.csv)
 
 Insight: The store offers films in all 16 categories. Some categories (e.g., Sports, Foreign) dominate the catalog, which could create oversupply compared to less-represented genres.
 
