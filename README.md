@@ -38,7 +38,7 @@ Stores & Staff (store, staff)
 1. How many films exist per category?
 
 📄 [Query](SQL/01_films_by_category.sql)
- | 📊 [Results](RESULTS/01_films_by_category.csv)
+ | 📊 [Results](Results/01_films_by_category.csv)
 
 Insight: The store offers films in all 16 categories. Some categories (e.g., Sports, Foreign) dominate the catalog, which could create oversupply compared to less-represented genres.
 
@@ -46,8 +46,8 @@ Insight: The store offers films in all 16 categories. Some categories (e.g., Spo
 
 2. What are the top 10 longest films in the catalog?
 
-📄 [Query](sql/02_top_longest_films.sql)
- | 📊 [Results](results/02_top_longest_films.csv)
+📄 [Query](SQL/02_top_longest_films.sql)
+ | 📊 [Results](Results/02_top_longest_films.csv)
 
 Insight: The longest films exceed 180 minutes. While this may add value to certain customers, it may reduce rental turnover (fewer people rent very long films).
 
@@ -55,8 +55,8 @@ Insight: The longest films exceed 180 minutes. While this may add value to certa
 
 3. Who are the top 10 customers by total spending?
 
-📄 [Query](sql/03_top_customers.sql)
- | 📊 [Results](results/03_top_customers.csv)
+📄 [Query](SQL/03_top_customers.sql)
+ | 📊 [Results](Results/03_top_customers.csv)
 
 Insight: The top 10 customers contribute a disproportionately high share of total revenue. These VIP clients could be targeted with loyalty programs or exclusive offers.
 
@@ -64,8 +64,8 @@ Insight: The top 10 customers contribute a disproportionately high share of tota
 
 4. What is the monthly revenue trend in 2007?
 
-📄 [Query](sql/04_monthly_revenue_2007.sql)
- | 📊 [Results](results/04_monthly_revenue_2007.csv)
+📄 [Query](SQL/04_monthly_revenue_2007.sql)
+ | 📊 [Results](Results/04_monthly_revenue_2007.csv)
 
 Insight: Revenue shows seasonal peaks, with higher sales in mid-year and end-of-year months. This suggests opportunities for targeted promotions during low months.
 
@@ -73,8 +73,8 @@ Insight: Revenue shows seasonal peaks, with higher sales in mid-year and end-of-
 
 5. Which films have never been rented?
 
-📄 [Query](sql/05_films_never_rented.sql)
- | 📊 [Results](results/05_films_never_rented.csv)
+📄 [Query](SQL/05_films_never_rented.sql)
+ | 📊 [Results](Results/05_films_never_rented.csv)
 
 Insight: A small but significant percentage of films have zero rentals. These titles could be promoted more aggressively, bundled with popular movies, or removed to optimize inventory.
 
@@ -82,8 +82,8 @@ Insight: A small but significant percentage of films have zero rentals. These ti
 
 6. What are the top 3 categories by revenue?
 
-📄 [Query](sql/06_top_categories_revenue.sql)
- | 📊 [Results](results/06_top_categories_revenue.csv)
+📄 [Query](SQL/06_top_categories_revenue.sql)
+ | 📊 [Results](Results/06_top_categories_revenue.csv)
 
 Insight: Action, Sports, and Animation are the top revenue-generating categories, accounting for a large share of business income. These genres should be prioritized in stock planning.
 
@@ -91,8 +91,8 @@ Insight: Action, Sports, and Animation are the top revenue-generating categories
 
 7. Which actors have generated the most revenue through their films?
 
-📄 [Query](sql/07_top_actors_revenue.sql)
- | 📊 [Results](results/07_top_actors_revenue.csv)
+📄 [Query](SQL/07_top_actors_revenue.sql)
+ | 📊 [Results](Results/07_top_actors_revenue.csv)
 
 Insight: This shows which actors are the most profitable, useful for targeted marketing campaigns.
 
@@ -100,8 +100,8 @@ Insight: This shows which actors are the most profitable, useful for targeted ma
 
 8. What are the busiest rental days of the week?
 
-📄 [Query](sql/08_busiest_rental_day.sql)
- | 📊 [Results](results/08_busiest_rental_day.csv)
+📄 [Query](SQL/08_busiest_rental_day.sql)
+ | 📊 [Results](Results/08_busiest_rental_day.csv)
 
 Insight: Identifies peak rental days; management can use this to optimize staffing and promotions.
 
@@ -112,10 +112,10 @@ Insight: Identifies peak rental days; management can use this to optimize staffi
 
 The following visuals were created to complement the analysis:
 
--[Monthly Revenue Trend (2007) - line chart](visuals/MonthlyRevenueTrend.jpg)
--[Top Customers by Revenue - bar chart](visuals/TopCustomers.jpg)
--[Revenue by Category - donut chart](visuals/RevenueByCategory.jpg)
--[Films Never Rented - table view](visuals/FilmsNeverRented.jpg)
+-[Monthly Revenue Trend (2007) - line chart](Visuals/MonthlyRevenueTrend.jpg)
+-[Top Customers by Revenue - bar chart](Visuals/TopCustomers.jpg)
+-[Revenue by Category - donut chart](Visuals/RevenueByCategory.jpg)
+-[Films Never Rented - table view](Visuals/FilmsNeverRented.jpg)
 
 
 📝 Conclusions
