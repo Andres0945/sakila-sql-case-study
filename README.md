@@ -7,10 +7,10 @@ The goal is to practice SQL while answering key business questions that would he
 
 The analysis includes:
 
-SQL queries to answer realistic business questions.
-CSV exports with query results.
-Power BI visualizations of selected insights.
-Business conclusions and recommendations.
+-SQL queries to answer realistic business questions.
+-CSV exports with query results.
+-Power BI visualizations of selected insights.
+-Business conclusions and recommendations.
 
 🗂️ Repository Structure
 sakila-sql-case-study/
@@ -32,12 +32,13 @@ Payments (payment)
 Stores & Staff (store, staff)
 
 ❓ Business Questions & Insights
-1. How many films exist in the catalog and how many per category?
+
+1. How many films exist per category?
 
 📄 [Query](sql/01_films_by_category.sql)
  | 📊 [Results](results/01_films_by_category.csv)
 
-Insight: The store offers films in all 16 categories. Some categories (e.g., Sports, Action) dominate the catalog, which could create oversupply compared to less-represented genres.
+Insight: The store offers films in all 16 categories. Some categories (e.g., Sports, Foreign) dominate the catalog, which could create oversupply compared to less-represented genres.
 
 
 
@@ -59,10 +60,10 @@ Insight: The top 10 customers contribute a disproportionately high share of tota
 
 
 
-4. What is the monthly revenue trend in 2006?
+4. What is the monthly revenue trend in 2007?
 
 📄 [Query](sql/04_monthly_revenue_2007.sql)
- | 📊 [Results](results/04_monthly_revenue_2006.csv)
+ | 📊 [Results](results/04_monthly_revenue_2007.csv)
 
 Insight: Revenue shows seasonal peaks, with higher sales in mid-year and end-of-year months. This suggests opportunities for targeted promotions during low months.
 
@@ -86,16 +87,34 @@ Insight: Action, Sports, and Animation are the top revenue-generating categories
 
 
 
+7. Which actors have generated the most revenue through their films?
+
+📄 [Query](sql/07_top_actors_revenue.sql)
+ | 📊 [Results](results/07_top_actors_revenue.csv)
+
+Insight: This shows which actors are the most profitable, useful for targeted marketing campaigns.
+
+
+
+8. What are the busiest rental days of the week?
+
+📄 [Query](sql/08_busiest_rental_day.sql)
+ | 📊 [Results](results/08_busiest_rental_day.csv)
+
+Insight: Identifies peak rental days; management can use this to optimize staffing and promotions.
+
+
+
+
 📈 Visualizations (Power BI)
 
 The following visuals were created to complement the analysis:
 
-Monthly Revenue Trend (2006) → line chart.
-Top Customers by Revenue → bar chart.
-Revenue by Category → donut chart.
-Films Never Rented → table view.
+-[Monthly Revenue Trend (2007) - line chart](visuals/MonthlyRevenueTrend.jpg)
+-[Top Customers by Revenue - bar chart](visuals/TopCustomers.jpg)
+-[Revenue by Category - donut chart](visuals/RevenueByCategory.jpg)
+-[Films Never Rented - table view](visuals/FilmsNeverRented.jpg)
 
-📸 Screenshots available in: results/screenshots/
 
 📝 Conclusions
 

@@ -1,4 +1,4 @@
---1. How many films exist in the catalog and how many per category?
+--1. How many films exist per category?
 
 /*
 Objective: To identify the distribution of the movie catalog.
@@ -15,5 +15,5 @@ FROM category c
 JOIN film_category fc ON c.category_id = fc.category_id
 JOIN film f ON f.film_id = fc.film_id
 GROUP BY c.name
-ORDER BY films_count DESC;
+ORDER BY "Films count" DESC;
 
