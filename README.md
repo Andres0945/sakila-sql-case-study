@@ -31,7 +31,9 @@ Customers (customer, address, city, country)
 Payments (payment)
 Stores & Staff (store, staff)
 
-❓ Business Questions & Insights
+❗Power BI Presentation:https://app.powerbi.com/groups/me/reports/cfc69855-129d-4f62-ad55-9cd253f77eae/61c9db703bad7cd4bdaa?experience=power-bi
+
+❓ Business Questions & Insights 
 
 1. How many films exist per category?
 
