@@ -31,7 +31,7 @@ Customers (customer, address, city, country)
 Payments (payment)
 Stores & Staff (store, staff)
 
-❗[Power BI](Presentation:https://app.powerbi.com/groups/me/reports/cfc69855-129d-4f62-ad55-9cd253f77eae/61c9db703bad7cd4bdaa?experience=power-bi)
+
 
 ❓ Business Questions & Insights 
 
@@ -116,6 +116,10 @@ The following visuals were created to complement the analysis:
 -[Top Customers by Revenue - bar chart](Visuals/TopCustomers.jpg)
 -[Revenue by Category - donut chart](Visuals/RevenueByCategory.jpg)
 -[Films Never Rented - table view](Visuals/FilmsNeverRented.jpg)
+
+
+❗Power BI Presentation: https://app.powerbi.com/groups/me/reports/cfc69855-129d-4f62-ad55-9cd253f77eae/61c9db703bad7cd4bdaa?experience=power-bi
+
 
 
 📝 Conclusions
