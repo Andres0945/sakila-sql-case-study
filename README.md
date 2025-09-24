@@ -3,7 +3,7 @@
 🎯 Project Overview
 
 This project analyzes the Sakila DVD Rental Database, a sample database simulating a movie rental business.
-The goal is to practice SQL while answering key business questions that would help managers make data-driven decisions.
+The goal is to practice SQL while answering key business questions that would help managers make data-driven decisions. It also includes a Power BI project where the SQL database was loaded, cleaned, and enhanced with new measures and calculated columns. This allowed us to build proper visualizations that provide a clearer and more insightful view of the key business questions under analysis.
 
 The analysis includes:
 
@@ -31,7 +31,7 @@ Customers (customer, address, city, country)
 Payments (payment)
 Stores & Staff (store, staff)
 
-❗Power BI Presentation:https://app.powerbi.com/groups/me/reports/cfc69855-129d-4f62-ad55-9cd253f77eae/61c9db703bad7cd4bdaa?experience=power-bi
+❗[Power BI](Presentation:https://app.powerbi.com/groups/me/reports/cfc69855-129d-4f62-ad55-9cd253f77eae/61c9db703bad7cd4bdaa?experience=power-bi)
 
 ❓ Business Questions & Insights 
 
