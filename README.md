@@ -12,13 +12,7 @@ The analysis includes:
 -Power BI visualizations of selected insights.
 -Business conclusions and recommendations.
 
-🗂️ Repository Structure
-sakila-sql-case-study/
-├─ README.md                  # Project documentation
-├─ sql/                       # All SQL queries (1 file per question)
-├─ results/                   # CSV exports of query results
-│   ├─ screenshots/           # Power BI visuals (PNG/JPG)
-└─ data_dictionary.md         # Short explanation of Sakila tables used
+
 
 📊 Dataset – Sakila DVD Rental
 
