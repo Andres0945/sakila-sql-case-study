@@ -7,10 +7,10 @@ The goal is to practice SQL while answering key business questions that would he
 
 The analysis includes:
 
--SQL queries to answer realistic business questions.
--CSV exports with query results.
--Power BI visualizations of selected insights.
--Business conclusions and recommendations.
+- SQL queries to answer realistic business questions.
+- CSV exports with query results.
+- Power BI visualizations of selected insights.
+- Business conclusions and recommendations.
 
 
 
@@ -18,12 +18,12 @@ The analysis includes:
 
 The Sakila database contains tables related to:
 
-Films (film, film_category, category, language)
-Actors (actor, film_actor)
-Inventory & Rentals (inventory, rental)
-Customers (customer, address, city, country)
-Payments (payment)
-Stores & Staff (store, staff)
+- Films (film, film_category, category, language)
+- Actors (actor, film_actor)
+- Inventory & Rentals (inventory, rental)
+- Customers (customer, address, city, country)
+- Payments (payment)
+- Stores & Staff (store, staff)
 
 
 
